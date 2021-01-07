@@ -26,7 +26,7 @@
 							</div>
 						</div>
 
-						<button type="submit" class="btn btn-primary" name="login">Sign In</button>
+						<button type="submit" class="btn btn-primary" name="sign_in">Sign In</button>
 					</form>
 				</div>
 

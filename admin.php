@@ -3,7 +3,7 @@ require 'inc/utils.php';
 require 'db/utils.php';
 
 $tab_title = "Admin panel";
-$logged = $_REQUEST['logged'] ?? false;
+$logged = $_COOKIE['logged'] ?? false;
 
 if (!$logged) {
  redirect('sign_in_functions.php');
